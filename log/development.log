@@ -546,3 +546,12 @@ Processing by StudentsController#index as HTML
 Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/students" for ::1 at 2020-10-27 16:40:17 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StudentsController#index as HTML
+  Rendering students/index.html.erb within layouts/application
+  [1m[36mStudent Load (0.1ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  Rendered students/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 181ms (Views: 175.0ms | ActiveRecord: 0.4ms)
+
+
